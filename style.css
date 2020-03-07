@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Times";
+}
+ul{
+    margin: 0;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/** Header Starts Here**/
+.header-most-top-bar{
+    border-bottom: 1px solid lightslategray ;
+}
+.header-top-social-bar .welcome{
+    color: rgb(83, 163, 83);
+    float: left;
+}
+.header-top-social-bar .social-bar{
+    float: right;   
+}
+.header-top-social-bar .social-bar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 16px;
+}
+.header-top-social-bar .social-bar ul li a{
+    text-decoration: none;
+}
+.nav-bar{
+    margin: 16px 0;
+}
+.nav-bar-left{
+    width: 20%;
+    float: left;
+}
+.nav-bar-left img{
+    width: 50%;
+}
+.nav-bar-right{
+    float: right;
+}
+.nav-bar-right ul{
+    padding: 16px 0;
+}
+.nav-bar-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar-right ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 16px;
+    color: black;
+    font-weight: bold;
+
+}
+.cta .fa{
+  
+}
+.header-main-area{
+    position: relative;
+}
+.header-bg-image img{
+    width: 100%;
+}
+.header-inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.main-logo{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.main-logo a{
+    padding: 08px 16px;
+    color: white;
+    background-color:  rgb(83, 163, 83);
+    text-decoration: none;
+}
+/** Header Ends Here**/
+/** Page Area Starts Here**/
+/** Section of hotel-desc starts **/
+.hotel-decs{
+    width: 100%;
+    position: relative;
+}
+.hotel-desc-bg{
+    width: 100%;
+}
+.hotel-desc-bg img{
+    width: 100%;
+}
+.slogan{
+    position: absolute;
+    top: 50%;
+    transform: translate(0 , -50%);
+    width: 100%;
+ }
+ .slogan-image{
+     width: 48%;
+    float: left;
+}
+.slogan-image img{
+    width: 90%;
+}
+ .slogan-right{
+     width: 50%;
+     float: right;
+ }
+ .slogan-right h1{
+     font-weight: bold;
+ }
+ .slogan-right input{
+     margin-top: 10px;
+     color: white;
+     background-color: rgb(83, 163, 83);
+     padding: 08px;
+     border-style: none;
+     font-size: 12px;
+ }
+/** Section of hotel-desc ends **/
+/** Section of best-rooms starts **/
+.best-rooms{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 56px 0;
+}
+.rooms-lead-text{
+    text-align: center;
+}
+.room-box{
+    width: 50%;
+    float: left;
+    
+}
+.best-room-image{
+    width: 45%;
+    float: left;
+}
+.best-room-image img{
+    width: 100%;
+}
+.best-room-desc{
+    background-color: #fff;
+    padding: 0 16px;
+    width: 45%;
+    float: left;
+}
+.best-room-desc h2{
+    margin: 0;
+}
+/** Section of best-rooms ends **/
+/** Section of events start **/
+.events{
+    width: 100%;
+    position: relative;
+}
+.events-bg img{
+    width: 100%;
+}
+.events-desc{
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50% );
+}
+.events-desc a{
+    padding: 08px 16px;
+    background-color: rgb(83, 163, 83);
+    text-decoration: none;
+    color: white;
+}
+/** Section of events ends **/
+/** Section of majestic-nature starts **/
+.majestic-nature{
+    width: 100%;
+    padding: 40px 0;
+}
+.majestic-nature-desc{
+    width:48%;
+    margin: 0 16px;
+    float: left;
+}
+.majestic-nature-desc h1{
+    font-size: 48px;
+    margin: 0;
+}
+.majestic-nature-desc p{
+    margin: 16px 0;
+}
+.majestic-nature-desc a{
+    padding: 08px 16px;
+    background-color: rgb(83, 163, 83);
+    text-decoration: none;
+    color: white;
+}
+.majestic-nature-image{
+    width: 48%;
+    float: left;
+}
+.majestic-nature-image img{
+    width: 100%;
+}
+/** Section of majestic-nature ends **/
+/** Section of stats starts **/
+.stats-wrapper{
+    position: relative;
+}
+.stats-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(19, 17, 14, 0.856); 
+}
+.stats-image img{
+    width: 100%;
+}
+.table-wrapper{
+    padding: 80px 0;
+    color: white;
+}
+.stats-table{
+    width: 100%;
+    display: table;   
+     
+}
+.stats-inner-data{
+    display: table-row;
+    vertical-align: middle; 
+}
+.table-figure{
+    padding: 16px  08px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-figure h1{
+    margin: 0;
+    font-size: 40px;
+}
+.table-figure h2{
+    margin: 0;
+}
+.table-figure-desc{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/** Section of stats ends **/
+/** Section of  ends **/
+.news{
+    padding: 40px 0;
+}
+.news-leading{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.news-details{
+    margin: 10px;
+    width: 30%;
+    float: left;
+}
+.news-details img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.news-details a{
+    color: black;
+}
+/** Page Area Starts Here**/
+/**Section for footer starts here**/
+.footer{
+    padding: 40px 0;
+    background-color: 	rgb(13, 13, 14);
+    color: white;
+}
+.footer-widgets{
+    width: 25%;
+    float: left;
+}
+.footer-widgets img{
+    width: 50%;
+}
+.footer-widgets a{
+    color: white;
+    padding: 04px 0;
+}
+.footer-widgets input[type="text"]{
+    border: 1px solid rgba(19, 17, 14, 0.856); 
+    padding: 5px;
+}
+.footer-widgets input[type="button"]{
+    background-color: rgb(83, 163, 83);
+    border: none;
+    padding: 5px;
+    color: white;
+}
+/**Section for footer ends here**/
